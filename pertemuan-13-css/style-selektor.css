@@ -1,0 +1,15 @@
+h1,
+h2,
+h3 {
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serifS;
+}
+p{
+    color: rgb(65, 65, 65);
+}
+.bg-title {
+    background-color: aqua;
+}
+#title-biografi {
+    background-color: aquamarine;
+}
