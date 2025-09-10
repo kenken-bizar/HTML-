@@ -1,0 +1,21 @@
+
+p.font-sans-serif {
+    font-family: lighter;
+}
+
+p.font-serif {
+    font-family: normal;
+}
+
+p.font-monospce {
+    font-family: bold;
+}
+
+p.font-cursive {
+    font-family: bolder;
+}
+
+p.font-fantasy {
+    font-family: 500;
+}
+        

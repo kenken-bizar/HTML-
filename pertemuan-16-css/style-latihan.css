@@ -1,0 +1,45 @@
+/*Selector mengunakan tag atau elemnt */
+p {
+    color: black;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+p.Paragraf {
+
+    color: rgb(75, 136, 138);
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* Selector menggunakan ID */
+#halaman_utama {
+    background-color: cyan;
+    backdrop-filter: blur(5px);
+    padding: 20px;
+}
+
+input[type="text"] {
+    border-color: aqua;
+    border-width: 2px;
+    border-style: solid;
+    padding: 5px;
+}
+
+* {
+    border: 1px solid black;
+}
+
+a:hover {
+    color:brown;
+    text-decoration: underline;
+}
+
+h1::first-letter {
+    /* content: " (selamat Datang di halaman utama)"; */
+    font-size: 32px;
+    color: rgb(225, 0, 0);
+}
+.k {
+    font-family: 'instrument serif';
+}

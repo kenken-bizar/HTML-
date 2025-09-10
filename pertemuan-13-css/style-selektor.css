@@ -1,15 +1,36 @@
+html, body {
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
 h1,
 h2,
 h3 {
-  color: black;
+  color: rgb(255, 255, 255);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serifS;
 }
 p{
-    color: rgb(65, 65, 65);
+    color: rgb(255, 255, 255);
 }
 .bg-title {
-    background-color: aqua;
+    background-color: rgb(43, 58, 58);
 }
 #title-biografi {
-    background-color: aquamarine;
+    background-color: rgb(46, 46, 46);
+}
+body {
+    background: linear-gradient(100deg, rgb(73, 74, 71) 50%, rgb(23, 21, 21) 50% );
+}
+
+.bg-title {
+    /* background-color: grey: */
+    /* background-color: aqua: */
+}
+
+#title-biografi {
+    /* background-color: cadetblue */
+}
+
+input[type="text"] {
+    background: rgb(251, 255, 0);
 }
