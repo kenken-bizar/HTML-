@@ -1,0 +1,19 @@
+.img-buah {
+    border: 5px solid black;
+    padding: 25px;
+    border-radius: 15px;
+    width: 200px;
+}
+.induk {
+    display: inline-flex;
+    gap: 10px;
+}
+.induk div {
+    width: 250px;
+    padding: 25px;
+    border: 2px solid black;
+}
+.teks {
+    border: 2px dashed black;
+    
+}
