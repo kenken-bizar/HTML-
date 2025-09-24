@@ -1,0 +1,46 @@
+.img-buah {
+
+}
+.induk {
+    display: inline-flex;
+    gap: 10px;
+}
+.induk div {
+    width: 250px;
+    padding: 25px;
+    border: 5px solid rgb(95, 98, 96);
+    border-radius: 10px;
+    background-color: ;    
+    text-align: center ;
+}
+.teks {
+    bottom: 19pc;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.paragraf {
+    text-align: center;
+    font-size: small;
+    padding: 3%;
+}
+button {
+    align-items: center;
+    background: rgb(1, 255, 34);
+    color: white;
+    border-radius: 20%;
+    font-size: medium;
+    border: 10dvi;
+
+}
+
+.induk1 {
+    display: inline-block;
+    text-align: center;
+    width: 250px;
+    padding: 25;
+    border: 5px solid rgb(135, 141, 138);
+    border-radius: 10px;
+
+}

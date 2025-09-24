@@ -10,4 +10,5 @@ div {
     width: 50%;
     height: 50vh;
     background: lightblue;
+    border-radius: 10%;
 }
