@@ -1,0 +1,31 @@
+#container {
+    text-align: center;
+    color: #ffffff;
+    font-size: 22px;
+
+}
+
+#header {
+    height: 100px;
+    background-color: rgb(60, 58, 58)
+}
+
+#content {
+    width: 75%;
+    height: 250px;
+    background-color: rgb(65, 70, 65);
+    float: left;
+}
+
+#sidebar {
+    width: 25%;
+    height: 250%;
+    background-color: rgb(65, 58, 58);
+    float: right;
+}
+
+#footer {
+    height: 50px;
+    background-color: grey;
+    clear: both;
+}

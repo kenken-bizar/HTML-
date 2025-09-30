@@ -1,0 +1,63 @@
+/* .float-right {
+    float: right;
+}
+
+.float-right {
+    width: 150px;
+}
+.float-right img {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-left {
+    width: 150px;
+}
+
+.float-left img {
+    float: left;
+} */
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background: rgb(214, 213, 208);
+    float: left;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background: rgb(132, 131, 129);
+    float: left;
+}
+
+.box3 {
+    width: 200px;
+    height: 200px;
+    background: rgb(89, 88, 86);
+    float: left;
+}
+
+.box4 {
+    width: 200px;
+    height: 200px;
+    background: rgb(255, 60, 0);
+    float: right;
+}
+
+.box5 {
+    width: 200px;
+    height: 200px;
+    background: rgb(0, 211, 253);
+    float: right;
+}
+.box6 {
+    width: 200px;
+    height: 200px;
+    background: rgb(40, 241, 0);
+    float: right;
+}
