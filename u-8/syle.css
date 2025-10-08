@@ -1,0 +1,63 @@
+
+       .foto {
+        display: block;
+        background-color: rgb(115, 118, 119);
+        border: 2px solid rgb(129, 133, 134);
+        margin: 51px 0px;
+        color: rgb(255, 255, 255);
+
+        border-radius: 10px;
+        display: block;
+        background-color: rgb(79, 83, 84);
+        text-align: center;
+      }
+      .foto img {
+        width: 150px;
+        height: 50;
+        border-radius: 10px;
+        margin: 10px;
+      }
+
+      .induk1 {
+        position: sticky;
+        top: 0;
+        height: 100px;
+        background: rgb(72, 75, 76);
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+        line-height: 0px;
+      }
+
+      .kotak {
+        display: block;
+        background-color: rgb(66, 68, 70);
+        border: 2px solid rgb(71, 76, 77);
+        margin: 51px 0px;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+      }
+
+      table {
+        border: 2px solid white;
+      }
+      table tr th {
+        border: 2px solid white;
+      }
+      table tr td {
+        border: 2px solid white;
+      }
+      table tr th {
+        border: 2px solid white;
+      }
+
+      .footer {
+        background-color: rgb(73, 71, 71);
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 18px 0 12px;
+        border-radius: 88px;
+        margin-top: 32px;
+      }

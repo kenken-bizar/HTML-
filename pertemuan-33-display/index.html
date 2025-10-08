@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Display</title>
+  </head>
+  <style>
+    .heading {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .subheading {
+      padding-left: 30px;
+    }
+
+    .span {
+      padding: 10px;
+      display: block;
+    }
+
+    #none {
+        display: none;
+    }
+
+  </style>
+
+  <body>
+    <p>
+      Ini adalah<span style="color: red"> text merah</span> didalam paragraf
+    </p>
+
+    <div style="background-color: lightblue; padding: 10px">
+      Ini keanu anak yang cool🥶
+    </div>
+
+    <div>
+      <span class="heading">pelatihan</span>
+      <span class="subheading">Kurikulum</span>
+      <span class="subheading">Materi</span>
+      <span class="subheading">Lokasi</span>
+    </div>
+
+    <div>
+      <span class="subheading">Perusahaan</span>
+      <span class="subheading">Lokasi</span>
+      <span class="subheading">Visi dan Misi</span>
+    </div>
+
+    <div
+      style="
+        display: inline-block;
+        background-color: peachpuff;
+        width: 200px;
+        height: 100px;
+        margin: 10px;
+      "
+    >
+      kotak 1
+    </div>
+
+    <div
+      style="
+        display: inline-block;
+        background-color: lightcoral;
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+      "
+    >kotak 2</div>
+  </body>
+
+  <p id="none">Ini paragraf yang di sembunyikan</p>
+</html>
