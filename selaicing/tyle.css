@@ -1,0 +1,73 @@
+.body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  text-align: center;
+  border: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #fff;
+  background: linear-gradient(to right, #666, #999);
+  padding: 20px;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+}
+
+.card h2 {
+  color: #fff;
+  padding: 10px;
+  margin: -20px -20px 20px -20px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+/* Variasi warna header kartu */
+.ordered h2 {
+  background-color: #e74c3c;
+}
+
+.unordered h2 {
+  background-color: #f39c12;
+}
+
+.description h2 {
+  background-color: #3498db;
+}
+
+.ordered ol li {
+  background: #f7f7f7;
+  margin: 5px 0;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.unordered ul li {
+  margin: 8px 0;
+}
+
+.description dt {
+  color: #e74c3c;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.description dd {
+  margin: 5px 0 15px 20px;
+  line-height: 1.4;
+}
