@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 200px; /* batas tinggi agar scrollbar muncul */
+}
+
+.sidebar {
+    width: 200px;
+    background-color: rgb(98, 98, 104);
+    color: rgb(255, 255, 255);
+    overflow-y: scroll; /* scrollbar muncul saat isi melebihi tinggi */
+    padding: 10px 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    padding: 15px 20px;
+    font-weight: bold;
+}
+
+.content {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    color: #333;
+}
