@@ -1,0 +1,36 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.box:hover{
+    transform: rotate(45deg);
+}
+
+.box-scale{
+    width: 100px; height: 100px;
+    background-color: blue;
+    margin-top: 20px;
+
+}
+
+.box-scale:hover{
+    transform: scale(1.3);
+}
+
+.box-translate{
+    width: 100px; height: 100px;
+    background-color: greenyellow;
+    margin-top: 20px;
+}
+
+.box-translate:hover{
+    transform: translate(50px, 50px);
+}
+
+.Skew-effect{
+    width: 100px; height: 100px;
+    background-color: aqua;
+    
+}

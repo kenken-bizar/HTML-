@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.card {
+    width: 300px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
+    padding: 16px; 
+    margin: 16px; 
+    text-align: center; 
+    background-color: rgba(32, 195, 220, 0.451);
+}
+.card img {
+    width: 100px;
+    height: auto;
+    border-radius: 1000px;
+}
+.card h2 {
+    margin-top: 10px;
+    
+}
+
+  .badge{
+    background:#09304e;
+    color:#f1eaea;
+    padding:4px 10px;
+    border-radius:999px;
+    font: 600 12px/1.2 system-ui;
+    animation: pop 1.1s ease-out infinite alternate;
+}
+
+@keyframes pop{
+    from{ transform: scale(1); filter: brightness(1); }
+    to  { transform: scale(1); filter: brightness(2.5); }
+}
